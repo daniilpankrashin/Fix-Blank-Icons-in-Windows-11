@@ -42,4 +42,4 @@ Restart-Computer -Force
 
 Windows 11 will rebuild icon cache during the boot process.
 # Icon is still blank
-If rebuilding icon cache didn't solve the problem check if the path to your icon is valid and navigate to the needed icon by clicking "Browse..." than open -> Ok -> Apply and restart the explorer.exe task through task manager.
+If rebuilding icon cache didn't solve the problem for you check if the path to your icon is valid, click "Browse..." than navigate manually to the needed icon -> Open -> Ok -> Apply. Than restart the explorer.exe task through task manager.
