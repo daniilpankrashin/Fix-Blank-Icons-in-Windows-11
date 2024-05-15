@@ -1,5 +1,5 @@
 # Fix Blank Icons in Windows 11
-This is a set of PowerShell commands for rebuilding system icon cache in Windows 11 which fixes the problem when some shortcuts on desktop, start menu or taskbar apper blank as on the screenshot bellow.
+This is a set of PowerShell commands for rebuilding system icon cache in Windows 11 which fixes the problem when some shortcuts on desktop, start menu or taskbar appear blank as on the screenshot bellow.
 
 ![blank-icon-windows-11](https://github.com/daniilpankrashin/Fix-Blank-Icons-in-Windows-11/assets/152285652/1abd8687-b858-4927-afaa-3f2b6dfdb53d)
 
