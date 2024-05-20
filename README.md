@@ -9,31 +9,19 @@ This is a set of PowerShell commands for rebuilding system icon cache in Windows
 taskkill /IM explorer.exe /F
 ```
 
-### 2. Go to your %localdata% directory
+### 2. Delete IconCache.db file
 
 ```
-cd C:\Users\your_username\AppData\Local
+Remove-Item "C:\Users\YOUR_USERNAME\AppData\Local\IconCache.db" -Recurse -Force
 ```
 
-### 3. Delete IconCache.db file
+### 3. Delete all files starting with iconcache
 
 ```
-rm IconCache.db
+Remove-Item "C:\Users\YOUR_USERNAME\AppData\Local\Microsoft\Windows\Explorer\iconcache*" -Recurse -Force
 ```
 
-### 4. Go to your windows explorer directory
-
-```
-cd C:\Users\your_username\AppData\Local\Microsoft\Windows\Explorer
-```
-
-### 5. Delete all files starting with iconcache
-
-```
-rm iconcache*
-```
-
-### 6. Restart your system
+### 4. Restart your system
 
 ```
 Restart-Computer -Force
